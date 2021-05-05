@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-	<title>Rohan &mdash; Contact</title>
+	<title>Rohan &mdash; Contact-Dev</title>
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -96,6 +96,7 @@
 			</div>
 		</div>
 		<div class="container">
+			<form action="https://formspree.io/f/xleagayq" method="POST" id="contact-form" autocomplete="off">
 				<div class="row">
 					<div class="col-md-5 col-md-push-1 animate-box">
 						<ul class="contact-info">
@@ -113,28 +114,35 @@
 						<div class="row">
 							<div class="col-md-6">
 								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Name">
+									<input type="text" class="form-control" placeholder="Name" name="fullName" id="inputFullName" required>
 								</div>
 							</div>
 							<div class="col-md-6">
 								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Email">
+									<input type="text" class="form-control" placeholder="Email" name="email" id="inputEmail" required>
 								</div>
 							</div>
 							<div class="col-md-12">
 								<div class="form-group">
-									<textarea name="" class="form-control" id="" cols="30" rows="7" placeholder="Message"></textarea>
+									<textarea name="message" class="form-control" required id="inputMessage" cols="30" rows="7" placeholder="Message"></textarea>
 								</div>
 							</div>
 							<div class="col-md-12">
 								<div class="form-group">
-									<input type="submit" value="Send Message" class="btn btn-primary">
+									<!-- <input type="submit" value="Send Message" class="btn btn-primary"> -->
+									<button style="color:black;" id="my-form-button" href="#">Submit</button>
 								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<p id="my-form-status"></p>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
+			</form>		
+		</div>
 	</div>
 
 	<div class="afternoon"><div class="backgroundContainer">
@@ -197,6 +205,9 @@
 	<script src="js/magnific-popup-options.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
+
+	<!--SendEmail JS-->
+	<script src="js/contact.js"></script>
 
 	</body>
 </html>
