@@ -524,12 +524,18 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-slider {
   background: #2A528A;
+  /* background: hwb(238 7% 79%); */
 }
 #fh5co-slider .heading h2, #fh5co-slider .heading p {
   color: #fff;
+  /* color: rgb(77, 70, 70); */
+}
+#fh5co-slider .heading h3 {
+  color: #fff;
+
 }
 #fh5co-slider .heading h2 {
-  font-size: 40px;
+  font-size: 30px;
 }
 #fh5co-slider .heading p {
   font-style: 22px;
@@ -557,7 +563,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background-repeat: no-repeat;
   background-size: relative; /* cover  */
   background-position: top center;
-  height: 600px !important;
+  height: 700px !important;
   position: relative;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
