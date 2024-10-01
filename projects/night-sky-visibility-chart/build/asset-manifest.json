@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/night-sky-visibility-chart/static/css/main.92e95468.css",
+    "main.js": "/night-sky-visibility-chart/static/js/main.5552033c.js",
+    "static/js/453.838ddb85.chunk.js": "/night-sky-visibility-chart/static/js/453.838ddb85.chunk.js",
+    "index.html": "/night-sky-visibility-chart/index.html",
+    "main.92e95468.css.map": "/night-sky-visibility-chart/static/css/main.92e95468.css.map",
+    "main.5552033c.js.map": "/night-sky-visibility-chart/static/js/main.5552033c.js.map",
+    "453.838ddb85.chunk.js.map": "/night-sky-visibility-chart/static/js/453.838ddb85.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92e95468.css",
+    "static/js/main.5552033c.js"
+  ]
+}
