@@ -1,0 +1,71 @@
+/* astro-resources.css */
+
+#fh5co-astro-resources {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+#fh5co-astro-resources .container {
+    padding-top: 100px; /* Adjust this to match your About page top padding */
+    padding-bottom: 50px;
+}
+
+#fh5co-astro-resources h1 {
+    color: #fff;
+    margin-bottom: 1em;
+    text-align: left; /* Align with your other pages */
+}
+
+#fh5co-astro-resources h3 {
+    color: #fff;
+    margin-bottom: 0.5em;
+}
+
+#fh5co-astro-resources p {
+    color: #ccc;
+    margin-bottom: 1em;
+    text-align: justify; /* Match .fh5co-about style */
+}
+
+#fh5co-astro-resources a {
+    color: #ff3333; /* Bright red color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#fh5co-astro-resources a:hover {
+    color: #ff6666; /* Lighter red for hover state */
+}
+
+/* Ensure these don't conflict with your existing styles */
+body {
+    background-color: black;
+}
+
+.backgroundContainer {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: black;
+    z-index: -10;
+}
+
+.afternoon {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
